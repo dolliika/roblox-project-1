@@ -1,5 +1,5 @@
 --[[local myBaseplate = game.Workspace.Baseplate
---myBaseplate not baseplate because the baseplate is MINE NOT YOURS BACK OFF I SAID BACK OFF
+-- myBaseplate not baseplate because the baseplate is MINE NOT YOURS BACK OFF I SAID BACK OFF
 
 local function changeTransparency()
 	myBaseplate.Transparency = 1
@@ -37,4 +37,26 @@ local function destroyBox()
 	print("oh no now ur homeless... just buy a house")
 end
 
-destroyBox()]]
+destroyBox()
+
+local function addition(number1, number2)
+	local result = number1 + number2
+	-- print(result)
+	return result
+end
+
+-- addition(5, 2)
+-- addition(3, 2)
+-- addition(9, 4)
+
+local printResult = addition(2, 2)
+-- ^ this equals 22
+-- src: trust me bro
+print(printResult)
+
+local function substraction(number1, number2)
+	local result = number1 - number2
+	print(result)
+end
+
+substraction(3, 2)]]
