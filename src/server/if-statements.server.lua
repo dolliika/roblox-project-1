@@ -9,17 +9,17 @@ elseif 1 + 1 == 2 then
   print("1 + 1 equals 2")
 else
   print("the if statement failed (what a skill issue tbh)")
-end]]
+end
 
 local function addition(number1, number2) 
   local result = number1 + number2
 
   if result == 4 then
       print("the result is equal to 4")
-  --[[elseif result == 6 then
-    print("the result is equal to 6")
-  else
-    print("none of these results add up")]]
+  -- elseif result == 6 then
+  --   print("the result is equal to 6")
+  -- else
+  --   print("none of these results add up")
   end
   if result == 4 then 
     print("the result is equal to 4")
@@ -48,3 +48,32 @@ gaydar("male", "female")
 gaydar("female", "male")
 gaydar("female", "female")
 gaydar("male", "male")
+
+local myAmazingBaseplate = game.Workspace.Baseplate
+local myBigBackNumber = 500000
+-- local myBigBackNumber2 = 500000
+-- local myBigBackNumber3 = 500000
+-- local myBigBackNumber4 = 500000
+-- local myBigBackNumber5 = 500000
+-- local myBigBackNumber6 = 500000
+-- ^ this is some repetitive code (no fucking shit)
+
+local function myGreatFunction()
+  -- local trueStatement = true
+  -- print(trueStatement)
+  local result = nil
+
+  if result == nil then
+      local result1 = true
+      print(result1)
+  else
+      local result2 = false
+      print(result2)
+  end
+end
+
+myGreatFunction()
+
+-- print(mySecondVariable)
+-- ^ this will not work (because the variable doesn't even exist yet, smartass)
+-- local mySecondVariable = "string"]]
