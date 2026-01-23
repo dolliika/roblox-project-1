@@ -1,8 +1,8 @@
-if true then
-  print("ong ts lwk fr no cap 🥹✌️")
-else 
-  print("never mind i lied")
-end
+-- if true then
+--   print("ong ts lwk fr no cap 🥹✌️")
+-- else 
+--   print("never mind i lied")
+-- end
 
 -- or -> lua equivalent of js ||
 -- and -> lua equivalent of js &&
