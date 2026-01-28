@@ -3,10 +3,10 @@
 --   print(player)
 -- end)
 
-local function playerAdded(player)
-  print("hey owner someone joined yo stinky ass game go greet them")
-  print(player)
-end
+-- local function playerAdded(player)
+--   print("hey owner someone joined yo stinky ass game go greet them")
+--   print(player)
+-- end
 
 game.Players.PlayerAdded:Connect(playerAdded)
 

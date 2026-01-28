@@ -1,4 +1,4 @@
-local model = workspace:WaitForChild("model")
+--[[local model = workspace:WaitForChild("model")
 local part1 = model:FindFirstChild("part 1")
 
 if part1 then
@@ -6,4 +6,4 @@ if part1 then
 end
 
 local part2 = model:WaitForChild("part 2")
-print("part 2 has been detected")
+print("part 2 has been detected")]]
